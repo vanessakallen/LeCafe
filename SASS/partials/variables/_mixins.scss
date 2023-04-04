@@ -1,0 +1,84 @@
+@mixin headingStyle() {
+  background-color: $mainAccentColor;
+  color: white;
+  font-size: 1.75rem;
+  text-align: center;
+  font-family: $headingsFont;
+  padding: .5rem;
+  position: relative;
+  top: 2.5rem;
+  margin-bottom: 5rem;
+}
+
+@mixin tableStyle() {
+  table {
+    margin: 0 auto;
+    width: 90%;
+    background-color: rgba(24, 23, 23, 0.671);
+    color: white;
+    padding-bottom: 1rem;
+  }
+
+  caption {
+    background-color: rgba(24, 23, 23, 0.671);
+    font-size: 1.7rem;
+    text-align: left;
+    padding-left: 5%;
+    padding-top: 1rem;
+    font-weight: bold;
+  }
+
+  tr {
+    border-bottom: 3px rgba(255, 255, 255, 0.6) solid;
+    // padding: 1rem;
+    width: 90%;
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: space-between;
+
+    td:nth-child(2) {
+      font-weight: bold;
+    }
+
+
+  }
+}
+
+@mixin linkStyle($colour) {
+  a {
+    text-decoration: none;
+    color: $colour;
+  }
+
+  a:visited {
+    color: $colour;
+  }
+}
+
+
+
+@mixin desktopMainStyle() {
+  @media screen and (min-width: 900px) {
+    display: grid;
+    grid-template-columns: 20% 1fr 1fr;
+    grid-template-rows: auto auto;
+    h2 {
+      align-self: end;
+      margin-left: 1rem;
+    }
+    table:first-of-type {
+      grid-column: 2 /3;
+      grid-row: 1 / 3;
+    }
+    table:last-of-type {
+      grid-column: 3 / 4;
+      grid-row: 2 / 3;
+    }
+  }
+}
+
+
+@mixin visuallyHidden() {
+  visibility: hidden;
+}

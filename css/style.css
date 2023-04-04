@@ -1,0 +1,454 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&family=Spectral&family=Spectral+SC&display=swap");
+h2 {
+  background-color: mediumseagreen;
+  color: white;
+  font-size: 1.75rem;
+  text-align: center;
+  font-family: "Spectral SC", serif;
+  padding: 0.5rem;
+  position: relative;
+  top: 2.5rem;
+  margin-bottom: 5rem;
+}
+
+#breakfastSection {
+  background-image: url("../images/breakfast.jpg");
+  background-position: center;
+  background-attachment: fixed;
+  margin-bottom: -1.5rem;
+  padding: 0rem 0 5rem 0;
+  border-bottom: 2rem solid mediumseagreen;
+}
+#breakfastSection table {
+  margin: 0 auto;
+  width: 90%;
+  background-color: rgba(24, 23, 23, 0.671);
+  color: white;
+  padding-bottom: 1rem;
+}
+#breakfastSection caption {
+  background-color: rgba(24, 23, 23, 0.671);
+  font-size: 1.7rem;
+  text-align: left;
+  padding-left: 5%;
+  padding-top: 1rem;
+  font-weight: bold;
+}
+#breakfastSection tr {
+  border-bottom: 3px rgba(255, 255, 255, 0.6) solid;
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+#breakfastSection tr td:nth-child(2) {
+  font-weight: bold;
+}
+
+@media only screen and (min-width: 900px) {
+  #breakfastSection {
+    padding-top: 6rem;
+  }
+}
+@media only screen and (min-width: 900px) and (min-width: 900px) {
+  #breakfastSection {
+    display: grid;
+    grid-template-columns: 20% 1fr 1fr;
+    grid-template-rows: auto auto;
+  }
+  #breakfastSection h2 {
+    align-self: end;
+    margin-left: 1rem;
+  }
+  #breakfastSection table:first-of-type {
+    grid-column: 2/3;
+    grid-row: 1/3;
+  }
+  #breakfastSection table:last-of-type {
+    grid-column: 3/4;
+    grid-row: 2/3;
+  }
+}
+h2 {
+  background-color: mediumseagreen;
+  color: white;
+  font-size: 1.75rem;
+  text-align: center;
+  font-family: "Spectral SC", serif;
+  padding: 0.5rem;
+  position: relative;
+  top: 2.5rem;
+  margin-bottom: 5rem;
+}
+
+#lunchSection {
+  background-image: url("../images/lunch.jpg");
+  background-position: center;
+  background-attachment: fixed;
+  margin-bottom: -1.5rem;
+  padding: 1rem 0 5rem 0;
+  border-bottom: 2rem solid mediumseagreen;
+}
+#lunchSection table {
+  margin: 0 auto;
+  width: 90%;
+  background-color: rgba(24, 23, 23, 0.671);
+  color: white;
+  padding-bottom: 1rem;
+}
+#lunchSection caption {
+  background-color: rgba(24, 23, 23, 0.671);
+  font-size: 1.7rem;
+  text-align: left;
+  padding-left: 5%;
+  padding-top: 1rem;
+  font-weight: bold;
+}
+#lunchSection tr {
+  border-bottom: 3px rgba(255, 255, 255, 0.6) solid;
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+#lunchSection tr td:nth-child(2) {
+  font-weight: bold;
+}
+
+@media only screen and (min-width: 900px) {
+  #lunchSection {
+    padding-top: 6rem;
+  }
+}
+@media only screen and (min-width: 900px) and (min-width: 900px) {
+  #lunchSection {
+    display: grid;
+    grid-template-columns: 20% 1fr 1fr;
+    grid-template-rows: auto auto;
+  }
+  #lunchSection h2 {
+    align-self: end;
+    margin-left: 1rem;
+  }
+  #lunchSection table:first-of-type {
+    grid-column: 2/3;
+    grid-row: 1/3;
+  }
+  #lunchSection table:last-of-type {
+    grid-column: 3/4;
+    grid-row: 2/3;
+  }
+}
+h2 {
+  background-color: mediumseagreen;
+  color: white;
+  font-size: 1.75rem;
+  text-align: center;
+  font-family: "Spectral SC", serif;
+  padding: 0.5rem;
+  position: relative;
+  top: 2.5rem;
+  margin-bottom: 5rem;
+}
+
+#dinnerSection {
+  background-image: url("../images/dinner.jpg");
+  background-position: center;
+  background-attachment: fixed;
+  margin-bottom: -1.5rem;
+  padding: 1rem 0 5rem 0;
+  border-bottom: 2rem solid mediumseagreen;
+}
+#dinnerSection table {
+  margin: 0 auto;
+  width: 90%;
+  background-color: rgba(24, 23, 23, 0.671);
+  color: white;
+  padding-bottom: 1rem;
+}
+#dinnerSection caption {
+  background-color: rgba(24, 23, 23, 0.671);
+  font-size: 1.7rem;
+  text-align: left;
+  padding-left: 5%;
+  padding-top: 1rem;
+  font-weight: bold;
+}
+#dinnerSection tr {
+  border-bottom: 3px rgba(255, 255, 255, 0.6) solid;
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+#dinnerSection tr td:nth-child(2) {
+  font-weight: bold;
+}
+
+@media only screen and (min-width: 900px) {
+  #dinnerSection {
+    padding-top: 6rem;
+  }
+}
+@media only screen and (min-width: 900px) and (min-width: 900px) {
+  #dinnerSection {
+    display: grid;
+    grid-template-columns: 20% 1fr 1fr;
+    grid-template-rows: auto auto;
+  }
+  #dinnerSection h2 {
+    align-self: end;
+    margin-left: 1rem;
+  }
+  #dinnerSection table:first-of-type {
+    grid-column: 2/3;
+    grid-row: 1/3;
+  }
+  #dinnerSection table:last-of-type {
+    grid-column: 3/4;
+    grid-row: 2/3;
+  }
+}
+.reservation-section {
+  padding: 2rem;
+  border: 2rem solid mediumseagreen;
+}
+.reservation-section .form-wrapper {
+  padding: 1rem;
+}
+.reservation-section h2 {
+  background-color: mediumseagreen;
+  color: white;
+  text-align: center;
+  margin-bottom: 5rem;
+}
+.reservation-section .input-wrapper {
+  text-align: right;
+}
+.reservation-section .input-wrapper input {
+  width: 50%;
+  margin-left: 0.5rem;
+  border-style: none;
+  border-bottom: 1px solid mediumseagreen;
+}
+.reservation-section .submit-wrapper {
+  margin-top: 3rem;
+  text-align: center;
+}
+.reservation-section .submit-wrapper input {
+  border-style: none;
+  padding: 0.5rem 3rem;
+  border-radius: 20px;
+  box-shadow: 0px 2px 3px mediumseagreen;
+  font-size: 1.1rem;
+}
+.reservation-section .submit-wrapper input:hover {
+  background-color: mintcream;
+}
+@media only screen and (min-width: 900px) {
+  .reservation-section #reservation-form {
+    margin: 0 auto;
+    max-width: 25rem;
+  }
+  .reservation-section .form-wrapper label {
+    padding-right: 0.3rem;
+  }
+  .reservation-section .form-wrapper .input-wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .reservation-section .form-wrapper .input-wrapper input {
+    width: 100%;
+  }
+}
+
+.location-section {
+  position: relative;
+}
+.location-section .information-card {
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0.781);
+  border: 1rem solid white;
+  width: 10rem;
+  height: 18rem;
+  top: 5rem;
+  left: 4rem;
+  padding-top: 1rem;
+}
+.location-section .information-card p {
+  font-family: "Spectral", sans-serif;
+  margin-left: 1rem;
+}
+@media screen and (min-width: 900px) {
+  .location-section .map-wrapper {
+    border: 2rem solid white;
+  }
+  .location-section .information-card {
+    width: 24rem;
+    height: 15rem;
+    top: 6rem;
+    left: 9rem;
+    padding-top: 1rem;
+  }
+}
+
+header .header-wrapper h1 {
+  font-size: 7rem;
+  padding-left: 1rem;
+  margin: 1rem;
+  font-family: "PT Sans Narrow", serif;
+}
+header .header-wrapper .main-menu-wrapper ul {
+  padding: 0;
+}
+header .header-wrapper .main-menu-wrapper li {
+  padding-top: 0.5rem;
+  text-align: right;
+  list-style-type: none;
+  padding-right: 1rem;
+  border-bottom: 2px solid mediumseagreen;
+  cursor: pointer;
+  font-weight: 900;
+}
+header .header-wrapper .main-menu-wrapper li a {
+  text-decoration: none;
+  color: black;
+}
+header .header-wrapper .main-menu-wrapper #breakfastLink, header .header-wrapper .main-menu-wrapper #dinnerLink {
+  border-bottom: 2px solid rgb(182, 182, 182);
+}
+header .header-wrapper .social-menu-wrapper {
+  padding: 0.8rem;
+}
+header .header-wrapper .social-menu-wrapper ul {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  width: 50%;
+}
+header .header-wrapper .social-menu-wrapper ul li {
+  cursor: pointer;
+  list-style-type: none;
+}
+header .header-wrapper .social-menu-wrapper ul a {
+  color: black;
+}
+header .header-wrapper .social-menu-wrapper .hidden-text {
+  clip: rect(0 0 0 0);
+  -webkit-clip-path: inset(50%);
+          clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+@media screen and (min-width: 900px) {
+  header .header-wrapper {
+    display: grid;
+    grid-template-columns: 25% auto 25%;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+  header .header-wrapper h1 {
+    font-size: 7rem;
+  }
+  header .header-wrapper .main-menu-wrapper {
+    display: flex;
+    align-items: center;
+  }
+  header .header-wrapper .main-menu-wrapper nav {
+    width: 100%;
+  }
+  header .header-wrapper .main-menu-wrapper ul {
+    display: flex;
+    gap: 1.5rem;
+  }
+  header .header-wrapper .main-menu-wrapper ul #breakfastLink, header .header-wrapper .main-menu-wrapper ul #dinnerLink {
+    border: none;
+  }
+  header .header-wrapper .main-menu-wrapper ul li {
+    padding: 0.5rem 1rem;
+    border: none;
+    transition: background-color 0.5s ease, color 0.5s ease;
+  }
+  header .header-wrapper .main-menu-wrapper ul li:hover {
+    background-color: mediumseagreen;
+  }
+  header .header-wrapper .main-menu-wrapper ul li:hover a {
+    text-align: center;
+    color: white;
+  }
+  header .header-wrapper .social-menu-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  header .header-wrapper .social-menu-wrapper ul {
+    width: 100%;
+    margin: 0;
+  }
+  header .header-wrapper .social-menu-wrapper ul li {
+    transition: background-color 0.5s ease, color 0.5s ease;
+    padding: 0.5rem 1rem;
+  }
+  header .header-wrapper .social-menu-wrapper ul li:hover {
+    background-color: mediumseagreen;
+  }
+  header .header-wrapper .social-menu-wrapper ul li:hover a {
+    color: white;
+  }
+}
+
+footer .copyright-wrapper {
+  display: none;
+}
+footer .footer-menu-wrapper {
+  margin-bottom: -1rem;
+}
+footer .footer-menu-wrapper ul {
+  display: flex;
+  padding: 0;
+}
+footer .footer-menu-wrapper li {
+  text-align: center;
+  flex-grow: 1;
+  background-color: black;
+  list-style-type: none;
+}
+footer .footer-menu-wrapper li a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0.8rem 1rem;
+  color: white;
+  text-decoration: none;
+}
+footer .footer-menu-wrapper li:not(:last-child) {
+  border-right: 1px solid rgba(255, 255, 255, 0.663);
+}
+@media only screen and (min-width: 900px) {
+  footer .footer-menu-wrapper {
+    display: none;
+  }
+  footer .copyright-wrapper {
+    display: block;
+    padding: 2rem;
+    margin-bottom: 1rem;
+  }
+  footer .copyright-wrapper p {
+    text-align: center;
+    color: mediumseagreen;
+  }
+}
+
+html {
+  line-height: 1.5;
+  font-family: "Spectral", sans-serif;
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,36 @@
+.location-section {
+
+    position: relative;
+
+    .information-card {
+        position: absolute;
+        background-color: rgba(255, 255, 255, 0.781);
+        border: 1rem solid white;
+        width: 10rem;
+        height: 18rem;
+        top: 5rem;
+        left: 4rem;
+        padding-top: 1rem;
+
+        p {
+            font-family: $generalFont;
+            margin-left: 1rem;
+        }
+    }
+
+    @media screen and (min-width: 900px) {
+ 
+        .map-wrapper {
+            border: 2rem solid white;
+        }
+
+        .information-card {
+            width: 24rem;
+            height: 15rem;
+            top: 6rem;
+            left: 9rem;
+            padding-top: 1rem;
+        }
+
+    }
+}

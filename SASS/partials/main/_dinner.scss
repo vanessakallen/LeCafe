@@ -1,0 +1,23 @@
+h2 {
+    @include headingStyle;
+}
+
+#dinnerSection {
+    background-image: url('../images/dinner.jpg');
+    background-position: center;
+    background-attachment: fixed;
+    @include tableStyle;
+    margin-bottom: -1.5rem;
+    padding: 1rem 0 5rem 0;
+    border-bottom: 2rem solid $mainAccentColor;
+}
+
+// DESKTOP VIEW
+@media only screen and (min-width: 900px){
+    #dinnerSection {
+        @include desktopMainStyle;
+        padding-top: 6rem;
+
+    }
+
+}

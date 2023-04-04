@@ -1,0 +1,27 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&family=Spectral&family=Spectral+SC&display=swap');
+
+// Variables and Mixins
+@import '../sass-assignment-starter-files/SASS/partials/variables/variables';
+@import '../sass-assignment-starter-files/SASS/partials/variables/mixins';
+
+// Main Content
+@import '../sass-assignment-starter-files/SASS/partials/main/breakfast';
+@import '../sass-assignment-starter-files/SASS/partials/main/lunch';
+@import '../sass-assignment-starter-files/SASS/partials/main/dinner';
+@import '../sass-assignment-starter-files/SASS/partials/main/reservation';
+@import '../sass-assignment-starter-files/SASS/partials/main/location';
+
+// Header, Nav, Footer
+@import '../sass-assignment-starter-files/SASS/partials/header';
+@import '../sass-assignment-starter-files/SASS/partials/footer';
+
+html {
+    line-height: 1.5;
+    font-family: $generalFont;
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+}

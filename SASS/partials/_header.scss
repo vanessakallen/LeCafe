@@ -1,0 +1,133 @@
+header .header-wrapper {
+  h1 {
+    font-size: 7rem;
+    padding-left: 1rem;
+    margin: 1rem;
+    font-family: $headerFont;
+  }
+
+  .main-menu-wrapper {
+    ul {
+      padding: 0;
+    }
+    li {
+      padding-top: 0.5rem;
+      text-align: right;
+      list-style-type: none;
+      padding-right: 1rem;
+      border-bottom: 2px solid $mainAccentColor;
+      cursor: pointer;
+      font-weight: 900;
+
+      a {
+        text-decoration: none;
+        color: black;
+      }
+    }
+
+    #breakfastLink, #dinnerLink {
+      border-bottom: 2px solid rgb(182, 182, 182);
+    }
+  }
+
+  .social-menu-wrapper {
+    padding: 0.8rem;
+
+    ul {
+      display: flex;
+      justify-content: space-between;
+
+      margin: 0 auto;
+      width: 50%;
+
+      li {
+        cursor: pointer;
+        list-style-type: none;
+      }
+
+      a {
+        color: black;
+      }
+    }
+
+    .hidden-text {
+      clip: rect(0 0 0 0);
+      clip-path: inset(50%);
+      height: 1px;
+      overflow: hidden;
+      position: absolute;
+      white-space: nowrap;
+      width: 1px;
+    }
+  }
+
+  @media screen and (min-width: 900px) {
+    display: grid;
+    grid-template-columns: 25% auto 25%;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+
+    h1 {
+      font-size: 7rem;
+    }
+
+    .main-menu-wrapper {
+      display: flex;
+      align-items: center;
+
+      nav {
+        width: 100%;
+      }
+
+      ul {
+        display: flex;
+        gap: 1.5rem;
+
+        #breakfastLink, #dinnerLink {
+          border: none;
+        }
+
+        li {
+          padding: 0.5rem 1rem;
+          border: none;
+          transition: background-color 0.5s ease, color 0.5s ease;
+
+          
+        }
+
+        li:hover {
+          background-color: $mainAccentColor;
+
+          a {
+            text-align: center;
+            color: white;
+          }
+        }
+      }
+    }
+
+    .social-menu-wrapper {
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+
+      ul {
+        width: 100%;
+        margin: 0;
+
+        li {
+          transition: background-color 0.5s ease, color 0.5s ease;
+          padding: 0.5rem 1rem;
+        }
+
+        li:hover {
+          background-color: $mainAccentColor;
+
+          a {
+            color: white;
+          }
+        }
+      }
+    }
+  }
+}
